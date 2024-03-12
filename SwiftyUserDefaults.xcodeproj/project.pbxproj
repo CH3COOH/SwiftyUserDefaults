@@ -27,6 +27,7 @@
 		965E729E5D4814BDFEC42A97 /* Defaults+FrogSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161E961FF7D84853F6369DEE /* Defaults+FrogSerializable.swift */; };
 		9FA427F1D84703CE8EC6CD38 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE155E06F856DFEF78FD63F7 /* Defaults.swift */; };
 		A3CAE6734DDE8FD952CE2CF2 /* Defaults+Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92C9F82ABF7807D4D4DDDD /* Defaults+Subscripts.swift */; };
+		AA845E9C2BA0768600BBBB52 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AA845E9B2BA0768600BBBB52 /* PrivacyInfo.xcprivacy */; };
 		ACE14E08E7B3EECD55B932B3 /* Defaults+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8980553F1615D4ACB4AA43 /* Defaults+Dictionary.swift */; };
 		B31C4E974609611EF7360E51 /* Defaults+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790CE5B53F91DAD51975EDC /* Defaults+Double.swift */; };
 		C1EF5E679553F49B4C163561 /* SwiftyUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = B134969522555B348C06FD6C /* SwiftyUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,6 +70,7 @@
 		9701991125BC1345631E831E /* DefaultsObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsObserver.swift; path = Sources/DefaultsObserver.swift; sourceTree = "<group>"; };
 		A574FF49CBCEBCCEAE9BD42E /* Defaults+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+String.swift"; path = "Tests/SwiftyUserDefaultsTests/Built-ins/Defaults+String.swift"; sourceTree = "<group>"; };
 		A5A5BEEC51B2A01157F9965F /* Defaults+BestFroggiesEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+BestFroggiesEnum.swift"; path = "Tests/SwiftyUserDefaultsTests/External types/Defaults+BestFroggiesEnum.swift"; sourceTree = "<group>"; };
+		AA845E9B2BA0768600BBBB52 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		B134969522555B348C06FD6C /* SwiftyUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyUserDefaults.h; path = Sources/SwiftyUserDefaults.h; sourceTree = "<group>"; };
 		BF92C9F82ABF7807D4D4DDDD /* Defaults+Subscripts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+Subscripts.swift"; path = "Sources/Defaults+Subscripts.swift"; sourceTree = "<group>"; };
 		CB55DC75BF69CEA7DB03750E /* BuiltIns.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BuiltIns.swift; path = Sources/BuiltIns.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				85096B65E07A3BC7F856F0D1 /* OptionalType.swift */,
 				858E15CF231FEC2F00DC1418 /* PropertyWrappers.swift */,
 				B134969522555B348C06FD6C /* SwiftyUserDefaults.h */,
+				AA845E9B2BA0768600BBBB52 /* PrivacyInfo.xcprivacy */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA845E9C2BA0768600BBBB52 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
